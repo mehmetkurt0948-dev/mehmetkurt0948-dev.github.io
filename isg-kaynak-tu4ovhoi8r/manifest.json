@@ -1,0 +1,144 @@
+{
+ "uretim": "2026-10-16 08:45",
+ "blog": "tamisg.blogspot.com",
+ "uygulama": "https://mehmetkurt0948-dev.github.io",
+ "klasor": "isg-kaynak-tu4ovhoi8r",
+ "sayfaSayisi": 15,
+ "sayfalar": [
+  {
+   "dosya": "sinav-konulari.json",
+   "slug": "sinav-konulari",
+   "baslik": "A Sınıfı İSG Sınavı Konuları ve Soru Dağılımı",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/sinav-konulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/a-snf-isg-snav-konular-ve-soru-daglm.html",
+   "karakter": 10094
+  },
+  {
+   "dosya": "6331-isg-kanunu-sorulari.json",
+   "slug": "6331-isg-kanunu-sorulari",
+   "baslik": "6331 Sayılı İSG Kanunu: Sorular ve Konu Özeti",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/6331-isg-kanunu-sorulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/6331-sayl-isg-kanunu-sorular-ve-konu.html",
+   "karakter": 10022
+  },
+  {
+   "dosya": "is-kanunu-calisma-sureleri-sorulari.json",
+   "slug": "is-kanunu-calisma-sureleri-sorulari",
+   "baslik": "İş Kanunu ve Çalışma Süreleri: İSG Sınavı Soruları",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/is-kanunu-calisma-sureleri-sorulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/is-kanunu-ve-calsma-sureleri-isg-snav.html",
+   "karakter": 10142
+  },
+  {
+   "dosya": "saglik-ve-biyolojik-etkenler-sorulari.json",
+   "slug": "saglik-ve-biyolojik-etkenler-sorulari",
+   "baslik": "Sağlık ve Biyolojik Etkenler: İSG Sınavı Soruları",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/saglik-ve-biyolojik-etkenler-sorulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/saglk-ve-biyolojik-etkenler-isg-snav.html",
+   "karakter": 10803
+  },
+  {
+   "dosya": "kimyasal-ve-kanserojen-madde-sorulari.json",
+   "slug": "kimyasal-ve-kanserojen-madde-sorulari",
+   "baslik": "Kimyasal ve Kanserojen Madde Soruları (İSG A Sınıfı)",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/kimyasal-ve-kanserojen-madde-sorulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/kimyasal-ve-kanserojen-madde-sorular.html",
+   "karakter": 10943
+  },
+  {
+   "dosya": "isg-profesyonelleri-ve-hizmetleri-sorulari.json",
+   "slug": "isg-profesyonelleri-ve-hizmetleri-sorulari",
+   "baslik": "İSG Profesyonelleri ve Hizmetleri: Sorular ve Görevler",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/isg-profesyonelleri-ve-hizmetleri-sorulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/isg-profesyonelleri-ve-hizmetleri.html",
+   "karakter": 10622
+  },
+  {
+   "dosya": "acil-durum-ve-yangin-sorulari.json",
+   "slug": "acil-durum-ve-yangin-sorulari",
+   "baslik": "Acil Durum ve Yangın Soruları: İSG Sınavı Konu Özeti",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/acil-durum-ve-yangin-sorulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/acil-durum-ve-yangn-sorular-isg-snav.html",
+   "karakter": 9925
+  },
+  {
+   "dosya": "is-kazasi-ve-saglik-gozetimi-sorulari.json",
+   "slug": "is-kazasi-ve-saglik-gozetimi-sorulari",
+   "baslik": "İş Kazası ve Sağlık Gözetimi: İSG Sınavı Soruları",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/is-kazasi-ve-saglik-gozetimi-sorulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/is-kazas-ve-saglk-gozetimi-isg-snav.html",
+   "karakter": 10167
+  },
+  {
+   "dosya": "risk-degerlendirmesi-sorulari.json",
+   "slug": "risk-degerlendirmesi-sorulari",
+   "baslik": "Risk Değerlendirmesi Soruları: Basamaklar ve Yöntemler",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/risk-degerlendirmesi-sorulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/risk-degerlendirmesi-sorular-basamaklar.html",
+   "karakter": 9958
+  },
+  {
+   "dosya": "yapi-islerinde-isg-sorulari.json",
+   "slug": "yapi-islerinde-isg-sorulari",
+   "baslik": "Yapı İşlerinde İSG Soruları: İskele ve Yüksekte Çalışma",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/yapi-islerinde-isg-sorulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/yap-islerinde-isg-sorular-iskele-ve.html",
+   "karakter": 9682
+  },
+  {
+   "dosya": "maden-isyerlerinde-isg-sorulari.json",
+   "slug": "maden-isyerlerinde-isg-sorulari",
+   "baslik": "Maden İşyerlerinde İSG Soruları: Yeraltı ve Açık Ocak",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/maden-isyerlerinde-isg-sorulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/maden-isyerlerinde-isg-sorular-yeralt.html",
+   "karakter": 9763
+  },
+  {
+   "dosya": "fiziksel-etkenler-gurultu-titresim-sorulari.json",
+   "slug": "fiziksel-etkenler-gurultu-titresim-sorulari",
+   "baslik": "Fiziksel Etkenler Soruları: Gürültü, Titreşim, Aydınlatma",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/fiziksel-etkenler-gurultu-titresim-sorulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/fiziksel-etkenler-sorular-gurultu_0537581880.html",
+   "karakter": 10281
+  },
+  {
+   "dosya": "isg-egitimi-ve-calisan-katilimi-sorulari.json",
+   "slug": "isg-egitimi-ve-calisan-katilimi-sorulari",
+   "baslik": "İSG Eğitimi ve Çalışan Katılımı Soruları (Süre ve Belge)",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/isg-egitimi-ve-calisan-katilimi-sorulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/isg-egitimi-ve-calsan-katlm-sorular.html",
+   "karakter": 10187
+  },
+  {
+   "dosya": "elektrik-tesisleri-ve-topraklama-sorulari.json",
+   "slug": "elektrik-tesisleri-ve-topraklama-sorulari",
+   "baslik": "Elektrik Tesisleri ve Topraklama Soruları (İSG Sınavı)",
+   "tur": "konu",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/elektrik-tesisleri-ve-topraklama-sorulari.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/elektrik-tesisleri-ve-topraklama.html",
+   "karakter": 11228
+  },
+  {
+   "dosya": "deneme-snavna-gir.json",
+   "slug": "deneme-snavna-gir",
+   "baslik": "Deneme Sınavına Gir",
+   "tur": "sinav",
+   "beklenenAdres": "https://tamisg.blogspot.com/p/deneme-snavna-gir.html",
+   "gercekAdres": "https://tamisg.blogspot.com/p/deneme-snavna-gir.html",
+   "karakter": 7511
+  }
+ ]
+}
