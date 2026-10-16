@@ -4687,7 +4687,7 @@ window.EXAM_QUESTIONS = [
           <div class="access-status member"><strong>T&#252;m denemeler &#252;cretsizdir</strong><span>Kay&#305;t yok, &#246;deme yok, s&#305;n&#305;r yok</span></div>
           ${selectionMessage ? `<p class="selection-notice" role="alert">${escapeHtml(selectionMessage)}</p>` : ""}
           ${(state.started || state.finished) && questions.length !== EXAM_SIZE ? `<p class="selection-notice" role="alert">Kayıtlı denemenin bazı soruları mevcut sürümde bulunamıyor. Cevaplarınız ve soru geçmişiniz silinmedi. Yeni denemeye geçebilirsiniz; eksik kayıt yeniden oluşturulmaz.</p>` : ""}
-          <button class="button primary wide" id="startButton">${locked ? "Üyelik seçeneklerini gör" : canResume ? `${state.examClass} sınıfı ${state.attemptNo}. denemeye devam et · Soru ${state.current + 1}` : `${selectedExamClass} sınıfı ${nextAttemptNo}. denemeyi başlat`}</button>
+          <button class="button primary wide" id="startButton">${canResume ? `${state.examClass} sınıfı ${state.attemptNo}. denemeye devam et · Soru ${state.current + 1}` : `${selectedExamClass} sınıfı ${nextAttemptNo}. denemeyi başlat`}</button>
           <a class="button secondary link-button" href="#hap-notlar">Sınavlık hap notlara git ↓</a>
           ${state.finished && questions.length === EXAM_SIZE ? `<button class="text-button membership-preview" id="lastResultsButton">${state.attemptNo}. denemenin sonuçlarını incele</button>` : ""}
           ${canResume ? `<p class="resume-note">${answeredCount()} cevap güvende. Sınav yanlışlıkla başa dönmez.</p>` : ""}
@@ -5333,7 +5333,7 @@ window.EXAM_QUESTIONS = [
   function renderResults() {
     reviewing = false;
     const result = calculate();
-    const resultActions = `<div class="result-actions"><button class="button primary" data-new-exam>${accessLocked() ? "Üyelik seçeneklerini gör" : `${state.attemptNo + 1}. denemeyi oluştur · 50 soru`}</button><button class="button secondary" data-review-exam>Tamamlanan denemeyi incele</button></div>`;
+    const resultActions = `<div class="result-actions"><button class="button primary" data-new-exam>${state.attemptNo + 1}. denemeyi olu&#351;tur &#183; 50 soru</button><button class="button secondary" data-review-exam>Tamamlanan denemeyi incele</button></div>`;
     app.innerHTML = `
       <section>
         <div class="results-head">
