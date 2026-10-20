@@ -3911,10 +3911,10 @@ window.EXAM_QUESTIONS = [
 
 </script>
 <script>
-/* ===== questions-supplement-2026.js ===== */
-(function () {
+/* ===== questions-supplement-2026.js ===== */(function () {
   "use strict";
-  // 2026 ek soru seti — seyrek konular: patlayıcı ortamlar, kaldırma araçları, iş ekipmanları.
+  // 2026 ek soru seti — seyrek konular: patlayıcı ortamlar, kaldırma araçları, iş ekipmanları,
+  // basınçlı kaplar, kişisel koruyucu donanım, ergonomi ve elle taşıma (batch-1: 20.10.2026).
   // Dayanak bağlantıları app.js içindeki OFFICIAL_SOURCES kayıtlarıdır; metinler havuzdaki
   // doğrulanmış sorular ve ISG_HAP_NOTLAR özetleriyle karşılaştırıldı.
   // 17.10.2026 güncellik denetimi: İş Ekipmanları Yönetmeliği 23.12.2025/33116 ile değişti,
@@ -4017,7 +4017,85 @@ window.EXAM_QUESTIONS = [
     q(18, "İş ekipmanları", ekip, ekipmanGuncel,
       "Bir çalışanın matkap ucuna kaynak teli takarak kaynak yapmaya çalışması ile ilgili hangisi doğrudur?",
       ["İşi hızlandırdığı için amaç dışı kullanım kabul edilebilir", "Ekipman öngörülen kullanım amacı dışında kullanılamaz; işe uygun ekipman seçilir ve çalışanlar bu konuda talimatlandırılır", "Amir yazılı onay verirse amaç dışı kullanılabilir", "CE işareti bulunan ekipman her amaçla kullanılabilir", "Amaç dışı kullanımı yasaklayan bir düzenleme bulunmamaktadır"], 1,
-      "İş ekipmanı, üreticinin öngördüğü kullanım amacı ve koşullarına uygun kullanılır; güvenlik donanımları yerinden çıkarılamaz ve ekipman uygun olmayan işlerde çalıştırılamaz. Amaç dışı kullanım hem ekipmanın dayanımını hem de koruyucuların işlevini ortadan kaldırır. İşe uygun ekipmanın seçilmesi, çalışanların kullanım talimatı ile eğitilmesi ve talimata aykırı kullanımın engellenmesi işverenin yükümlülüğüdür.")
+      "İş ekipmanı, üreticinin öngördüğü kullanım amacı ve koşullarına uygun kullanılır; güvenlik donanımları yerinden çıkarılamaz ve ekipman uygun olmayan işlerde çalıştırılamaz. Amaç dışı kullanım hem ekipmanın dayanımını hem de koruyucuların işlevini ortadan kaldırır. İşe uygun ekipmanın seçilmesi, çalışanların kullanım talimatı ile eğitilmesi ve talimata aykırı kullanımın engellenmesi işverenin yükümlülüğüdür."),
+
+
+  q(
+    19, "Patlayıcı ortamlar", pcd, atexSource,
+    "İşverenin, patlayıcı ortam risklerine karşı teknik ve organizasyonel önlemleri alırken izleyeceği öncelik sırası hangisidir?",
+    ["Patlamanın zararlı etkilerini azaltmak, patlayıcı ortamın tutuşmasını önlemek, patlayıcı ortamın oluşmasını önlemek", "Patlayıcı ortamın oluşmasını önlemek, patlayıcı ortamın tutuşmasını önlemek, patlamanın zararlı etkilerini azaltmak", "Çalışanlara KKD vermek, alana uyarı levhaları asmak, tahliye tatbikatları yapmak", "Patlayıcı ortamın tutuşmasını önlemek, patlayıcı ortamın oluşmasını önlemek, söndürme ekipmanı bulundurmak", "Patlayıcı ortamın oluşmasını önlemek, patlamanın zararlı etkilerini azaltmak, patlayıcı ortamın tutuşmasını önlemek"], 1,
+    "Yönetmeliğe göre işveren, patlayıcı ortam risklerine karşı önlemleri belirli bir öncelik sırasıyla alır: önce patlayıcı ortamın oluşması önlenir; bu mümkün değilse patlayıcı ortamın tutuşturulması önlenir; o da mümkün değilse patlamanın zararlı etkileri azaltılır. Kaynağa yakınlık ilkesi gereği risk ilk aşamada kaynağında ortadan kaldırılmaya çalışılır; KKD, uyarı levhası ve tatbikat bu hiyerarşinin yerini tutan önlemler değildir."
+  ),
+
+  q(
+    20, "Patlayıcı ortamlar", pcd, atexSource,
+    "Bölge sınıflandırması yapılan bir işyerinde, sınıflandırılmış alanların çalışanlara tanıtılması için öngörülen temel uygulama nedir?",
+    ["Bölgeler yalnızca patlamadan korunma dokümanındaki krokilerde gösterilir; fiziksel işaretleme gerekmez", "Bölgelerde sürekli gaz ölçüm cihazı bulundurulması yeterlidir", "Bölgelerin giriş noktaları uyarı işaretleriyle belirtilir", "Bölge bilgisi yalnız iş güvenliği uzmanının kayıtlarında tutulur", "Bölgelerin çevresi yalnız sıvı bariyerlerle kapatılır"], 2,
+    "Yönetmeliğin Ek-1'inde, patlayıcı ortamın muhtemel patlayıcı miktarlarda oluşabileceği yerlerin giriş noktalarından uyarı işaretleriyle belirtilmesi öngörülür. İşaretler görülür biçimde ve kalıcı olarak yerinde bulundurulur; çalışanlar işaretlerin anlamı konusunda bilgilendirilir. Bu uygulama yetkisiz kişilerin ve tutuşturucu kaynakların sınıflandırılmış alanlara girişinin kontrolünü sağlar."
+  ),
+
+  q(
+    21, "Kaldırma araçları", ekip, ekipmanGuncel,
+    "Atölye çatısındaki raylı sisteme bağlanacak yeni bir mobil vinç için montaj ve devreye alma işlemlerinde işverenin uyması gereken kural nedir?",
+    ["Montaj, sökme ve kurma işleri yetkili kişilere yaptırılır ve ekipmanın güvenli kullanımı için gereken talimatlar verilir", "Vinç yeni ve etiketli olduğu için montaj sonrası ayrıca kontrol gerekmez", "Montajı, operatör belgesine sahip her çalışan kendi başına yapabilir", "Montajı yalnız vinç satan firma yapabilir; başka yetkili kişi bu işi üstlenemez", "Montaj planı işin yoğunluğuna göre serbestçe değiştirilebilir"], 0,
+    "İş Ekipmanları Yönetmeliği'nde iş ekipmanının montajı, sökülmesi, kurulması, tadili, bakım ve onarımı ile başka bir yere nakledilmesi gibi işlerin yetkili kişilere yaptırılması ve ekipmanın güvenli kullanımı için gereken talimatların verilmesi işverence sağlanır. Yetkili kişi, bu işin gerektirdiği teknik bilgi ve deneyime sahip kişidir. Montaj hataları yük düşmesi gibi ağır sonuçlara yol açtığından bu kural kaldırma ve iletme ekipmanında özellikle kritiktir."
+  ),
+
+  q(
+    22, "Kaldırma araçları", ekip, ekipmanGuncel,
+    "Vinç operatörü, yükü kendi doğrudan görüş alanı dışında kalan bir noktaya indirecektir. Bu durumda alınması gereken düzenleme nedir?",
+    ["İndirme işlemi yavaş yapılırsa ek bir önlem gerekmez", "Operatör ile arasındaki anlaşmayı sağlayacak bir işaretçi görevlendirilir", "Yükün indirileceği alan tahliye edildiği için işaretçi gerekmez", "Operatör kabineden inip yükü bizzat yönlendirir", "İşaretçi yalnız gece vardiyalarında görevlendirilir"], 1,
+    "Kaldırma ve iletme ekipmanı ile yapılan işlerde, operatör kancayı veya yükü doğrudan doğruya göremediği takdirde, operatör ile arasındaki anlaşmayı sağlayacak bir işaretçi görevlendirilir. Bu düzenleme, görüş alanı dışındaki indirme işlemlerinde yanlış yönlendirme ve yük düşmesi riskini kontrol altına alır; işaretçi ile operatör arasındaki iletişim kesintiye uğrarsa kaldırma işlemi durdurulur."
+  ),
+
+  q(
+    23, "Basınçlı kaplar", ekip, ekipmanGuncel,
+    "Bir hava kazanının emniyet ventili ayarı yapılırken esas alınması gereken değerler hangisidir?",
+    ["Yalnız işletme müdürünün her gün belirlediği çalışma basıncı", "Kazanın son periyodik kontrol raporunda yer alan test basıncı", "Aynı işletmedeki benzer kazanların ortalama çalışma basıncı", "Ventilin yay sıkılığına göre her yıl yeniden hesaplanan basınç", "Üretici firmanın belirttiği kapasite ve azami çalışma basıncı; işletmede daha düşük bir kullanım basıncı tespit edilmişse bu basınç"], 4,
+    "Basınçlı kapların ve emniyet ventillerinin ayarı, bu kapları üreten firma tarafından belirtilen kapasite ve azami çalışma basıncına göre yapılır ve kullanım sırasında bu değerlerin üzerinde çalışılmaz. İşletmede kullanım basıncının daha düşük bir değer olarak tespit edilmesi hâlinde ise basınçlı kap ve emniyet ventilleri bu işletme basıncına göre ayarlanır. Ventil ayarı kişisel takdirle değil, üretici verileriyle uyumlu biçimde yapılır."
+  ),
+
+  q(
+    24, "Basınçlı kaplar", ekip, ekipmanGuncel,
+    "Bir hava tankının emniyet ventili sürekli basınç kaçırıyor; işletme sorumlusu üretime devam edebilmek için ventili sabitleyip ayarına müdahale edilmesini öneriyor. Bu öneriye ilişkin doğru yaklaşım hangisidir?",
+    ["Ventil sabitlenerek üretime devam edilir; kaçırma basınç dalgalanmasından kaynaklanıyorsa risk yoktur", "Ventil sökülür ve yerine aynı çapta bir vana takılarak sistem basınç altında tutulur", "Tankın kullanım basıncı geçici olarak artırılarak ventlin açması geciktirilir", "Ventile müdahale edilmez; azami çalışma basıncının üzerinde çalışılmaz ve arıza giderilmeden tank kullanılmaz", "Ventil periyodik kontrol tarihine kadar bu hâlde bırakılır; kontrolde zaten incelenir"], 3,
+    "Basınçlı kapların ve emniyet ventillerinin ayarına keyfi olarak müdahale edilemez; kullanım sırasında üretici firmanın belirttiği kapasite ve azami çalışma basıncının üzerinde çalışılamaz. Ventilin sabitlenmesi ya da ayarının değiştirilmesi, aşırı basınçta açılması gereken son savunmayı devre dışı bırakır ve patlama riski doğurur. Güvenliği olumsuz yönde etkileyen görünen aksaklığı bulunan ekipman güvenli duruma getirilmeden çalıştırılmaz."
+  ),
+
+  q(
+    25, "İş ekipmanları", ekip, ekipmanDegr,
+    "23.12.2025 tarihli değişiklikle iş ekipmanlarının periyodik kontrolüne ilişkin getirilen 'ekipman muayene kuruluşu' düzenlemesinde aşağıdakilerden hangisi doğrudur?",
+    ["Periyodik kontrol raporlarını İSG-KATİP'e kaydeder; işverenle İSG-KATİP üzerinden sözleşme yapılması esası getirilmiştir", "Raporlarını yalnız kağıt olarak düzenler; elektronik ortamda kayıt zorunluluğu yoktur", "Herhangi bir akredite muayene kuruluşu, sözleşme yapmadan da periyodik kontrol raporu düzenleyebilir", "Yalnızca Basınçlı kapların periyodik kontrolünde görev alır", "Raporların şekli ve kriterleri her kuruluşça serbestçe belirlenir"], 0,
+    "23.12.2025 tarihli ve 33116 sayılı Resmî Gazete'de yayımlanan değişiklikle periyodik kontrol süreçleri İSG-KATİP sistemine taşınmıştır: Ek-III kapsamındaki iş ekipmanlarının periyodik kontrol raporları ekipman muayene kuruluşlarınca İSG-KATİP'e kaydedilir ve işverenle ekipman muayene kuruluşu arasında İSG-KATİP üzerinden sözleşme yapılması esası getirilmiştir. Raporlara ilişkin şekil ve kriterler kuruluşların takdirine bırakılmamıştır."
+  ),
+
+  q(
+    26, "İş ekipmanları", ekip, ekipmanGuncel,
+    "Üretim yoğunluğu nedeniyle bir işyeri, forklifti üç ay süreyle bir firmadan kiralamıştır. Bu forkliftin periyodik kontrolünün yaptırılması ve güvenli kullanımından sorumlu olan taraf hangisidir?",
+    ["Yalnız kiralayan firma; ekipman kendi mülkiyetinde bulunduğu için sorumluluk ondadır", "Kiracı işyeri, kiralama sözleşmesiyle tüm sorumluluğu kiralayan firmaya devretmiştir", "Forkliftin kullanıldığı işyerinin işvereni; kiralık dâhil işyerinde kullanılan iş ekipmanı yönetmelik kapsamındadır", "Sorumluluk, forklifti kullanan operatörün görev yaptığı vardiyaya göre değişir", "Kiralık ekipmanlar kapsam dışıdır; yalnız satın alınan ekipmanlar kontrol edilir"], 2,
+    "Yönetmelik, işyerlerinde kullanılan iş ekipmanının seçimi ve kullanımına ilişkin gereklilikleri kapsar; ekipmanın satın alınmış, kiralık ya da başka bir biçimde temin edilmiş olması yükümlülüğü değiştirmez. Forklift işyerinde kullanıldığı sürece işverenin kontrolündedir; Ek-III kapsamındaki periyodik kontrollerin yaptırılması ve güvenli kullanım için gerekli önlemler, ekipmanın kullanıldığı işyerinin işverenince sağlanır."
+  ),
+
+  q(
+    27, "İş ekipmanları", ekip, ekipmanGuncel,
+    "Vardiya sırasında bir iş merkezinde sesli ve titrek bir çalışma ile gevşemiş koruyucu kapak fark edilmiştir. Bu durumda işverenin ilk yapması gereken nedir?",
+    ["Ara muhafazanın ardından çalışmaya devam edilir; arıza için servis çağrılır", "Aksaklık çalışanlara duyurulur ve ekipman hafta sonunda durdurulur", "Ekipmanın güvenliği olumsuz yönde etkileyen görünen aksaklığı sürüyorsa derhal kullanımdan çıkarılır", "Ekipmanın hızı düşürülerek sezon sonuna kadar çalıştırılması uygun olur", "Ekipman, üzerindeki aksaklık notuyla kayıt altına alınarak çalışmaya devam eder"], 2,
+    "İş Ekipmanları Yönetmeliği'ne göre, iş ekipmanı üzerinde güvenliği olumsuz yönde etkileyebilecek görünen bir aksaklık varsa ekipman derhal kullanımdan çıkarılır ve güvenli duruma getirilmedikçe tekrar kullanılmaz. Aksaklığın giderilmesi için bakım ve onarım yetkili kişilere yaptırılır; onarım tamamlandığında fonksiyon testi yapılarak ekipman yeniden devreye alınır. Sesli-titrek çalışma ve gevşemiş koruyucu, beklemeye alınmayacak ciddi uyarı işaretleridir."
+  ),
+
+  q(
+    28, "Kişisel koruyucu donanım", "Kişisel Koruyucu Donanımların İşyerlerinde Kullanılması Hakkında Yönetmelik", "https://www.resmigazete.gov.tr/eskiler/2013/07/20130702.htm",
+    "Çalışanın, işverence kendisine verilen kişisel koruyucu donanımla ilgili yükümlülükleri arasında aşağıdakilerden hangisi yer alır?",
+    ["Donanımı talimat ve eğitime uygun biçimde doğru kullanmak, usulüne uygun olarak koruyup saklamak ve gördüğü arıza veya eksikliği işverene bildirmek", "Arızalanan donanımı kendi imkânlarıyla onararak kullanmaya devam etmek", "Donanımı yalnız denetim ve ölçüm günlerinde takmak", "Donanımın maliyetinin bir bölümünü işverene ödemek", "Donanım rahat kullanımı engellediğinde görev süresince çıkarmak"], 0,
+    "Yönetmeliğe göre çalışan, kendisine verilen kişisel koruyucu donanımı talimatlara ve eğitime uygun olarak doğru kullanmak, kullanım sırasında usulüne uygun olarak korumak, kirlendiğinde yeniden kullanmadan önce temizlemek ve güvenli biçimde saklamakla yükümlüdür. Donanımda gördüğü arıza veya eksikliği işverene bildirir; arızalı donanım onarılıp kontrol edilmeden kullanılmaz. Donanım işverence ücretsiz sağlanır ve görev süresince takılır."
+  ),
+
+  q(
+    29, "Ergonomi ve elle taşıma", "Elle Taşıma İşleri Yönetmeliği", "https://www.resmigazete.gov.tr/eskiler/2013/07/20130724.htm",
+    "Depo çalışanları gün boyu koli kaldırıp indirmektedir. İşverenin elle taşıma kaynaklı kas-iskelet sistemi risklerine yaklaşımı nasıl olmalıdır?",
+    ["Taşıma gerektiren işler değerlendirilerek teknik ve organizasyonel önlemler alınır; uygun ekipman sağlanır ve çalışanlar doğru tutma-kaldırma teknikleri ile yükün özellikleri konusunda bilgilendirilip eğitilir", "Kolilerin ağırlığı belli olduğu sürece ayrıca önlem alınması gerekmez", "Çalışanlar işe alışkın olduğu için eğitim düzenlenmesi zorunlu değildir", "Sırt koruyucu vermek yeterlidir; diğer önlemler ikincildir", "Elle taşıma yalnız ağır sanayi işyerlerinde düzenlenir; depo işleri kapsam dışıdır"], 0,
+    "Elle Taşıma İşleri Yönetmeliği, işverenden taşıma gerektiren işlerin sağlık ve güvenlik yönünden değerlendirilmesini ve uygun önlemlerin alınmasını ister: mümkünse mekanik taşıma araçları kullanılır, iş ve işyeri düzenlemesi yapılır, yük ile taşımanın özellikleri göz önünde bulundurulur. İşveren ayrıca çalışanlara taşınan yük ve taşıma işlemi hakkında bilgi verir, doğru tutma ve kaldırma tekniklerini içeren eğitim düzenler. Kişisel koruyucu donanım önlem hiyerarşisinin son basamağıdır ve tek başına yeterli sayılmaz."
+  )
   );
 
   window.EXAM_QUESTIONS.push(...NEW);
